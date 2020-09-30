@@ -1,0 +1,57 @@
+name: HybridSMP
+version: ${project.version}
+main: tk.caledonian.hybridsmp.HybridSMP
+api-version: 1.16
+prefix: HybridSMP
+softdepend: [PlaceholderAPI]
+authors: [Caledonian]
+description: HybridSMP v2 core
+website: tk.caledonian
+commands:
+  # Core
+  hybridcore:
+    description: Main plugin command
+    aliases: [hc, hybrid, hybridsmp, hysmp]
+  # Staff
+  staff:
+    description: View all online staff
+    aliases: [stafflist, showstaff, liststaff]
+  sc:
+    description: Use the staffchat
+    aliases: [staffchat, schat, staffc]
+  v:
+    description: Use the vanish mode
+    aliases: [vanish, vanishmode]
+
+  # Gamemodes
+  a:
+    aliases: [gma, gamemodea, 2, gm2, gamemode2]
+  c:
+    aliases: [gmc, gamemodec, 1, gm1, gamemode1]
+  sp:
+    aliases: [gmsp, gamemodesp, 3, gm3, gamemode3]
+  s:
+    aliases: [gms, gamemodes, 0, gm0, gamemode0]
+
+  # Reactions
+  bruh:
+    aliases: [bruhmoment]
+  burn:
+    aliases: [burnt, burntketchup]
+  doubt:
+  epic:
+    aliases: [epicgamer]
+  f:
+    aliases: [payrespects, fmoment]
+  gg:
+    aliases: [goodgame]
+  nf:
+    aliases: [norespects]
+  rip:
+  sleep:
+  swamp:
+  ugly:
+  corods:
+    aliases: [ cords ]
+  # Developer
+  points:
